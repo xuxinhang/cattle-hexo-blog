@@ -3,13 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
+title: '小牛写代码的地方'
+subtitle: 'Code is Poetry'
 description: ''
 keywords:
-author: John Doe
-language: en
-timezone: ''
+author: Cattle
+language: zh-CN
+timezone: 'Asia/Shanghai'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
@@ -98,7 +98,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: light
+theme: landscape
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment

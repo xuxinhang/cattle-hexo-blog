@@ -8,7 +8,7 @@ tags:
 
 <!-- <div class="ql-editor" data-gramm="false" contenteditable="true">  -->
 
-git remote show
+`git remote show`
 
 <span style="background-color: rgb(252, 252, 250); color: rgb(78, 68, 60);">为这种情况下的合并操作没有需要解决的分歧——这就叫做 “快进（fast-forward）”</span>
 
@@ -41,7 +41,9 @@ clone下来的repo在本地默认只有master分支。
 </pre>
 
 *   <span style="background-color: rgb(255, 242, 133);">如果不加 onto 会发生什么？</span>
-*   好好研究一下 rebase 的 options<pre spellcheck="false">git rebase [-i | --interactive] [&lt;options&gt;] [--exec &lt;cmd&gt;] [--onto &lt;newbase&gt;]  [&lt;upstream&gt; [&lt;branch&gt;]] git rebase [-i | --interactive] [&lt;options&gt;] [--exec &lt;cmd&gt;] [--onto &lt;newbase&gt;]  --root [&lt;branch&gt;] git rebase --continue | --skip | --abort | --quit | --edit-todo | --show-current-patch          
+*   好好研究一下 rebase 的 options
+
+<pre spellcheck="false">git rebase [-i | --interactive] [&lt;options&gt;] [--exec &lt;cmd&gt;] [--onto &lt;newbase&gt;]  [&lt;upstream&gt; [&lt;branch&gt;]] git rebase [-i | --interactive] [&lt;options&gt;] [--exec &lt;cmd&gt;] [--onto &lt;newbase&gt;]  --root [&lt;branch&gt;] git rebase --continue | --skip | --abort | --quit | --edit-todo | --show-current-patch          
 </pre>
 
 ### **用变基解决变基**
@@ -65,11 +67,11 @@ HTTPS 如何指定证书？
 *   SHA-1
 *   <span style="color: rgb(78, 68, 60); background-color: rgb(252, 252, 250);">当然你提供的 SHA-1 字符数量不得少于 4 个，并且没有歧义</span>
 *   分支引用
-*   引用日志(reflog)：HEAD@{5}  master@{yesterday}
-*   git reflog 来查看日志
-*   祖先引用： HEAD^     HEAD^2   第二父提交
-*   HEAD~2  第一父提交的第一父提交 = HEAD^^
-*   ^2 与 ~2 的区别 
+*   引用日志(reflog)：`HEAD@{5}`  `master@{yesterday}`
+*   `git reflog` 来查看日志
+*   祖先引用： `HEAD^`     `HEAD^2`   第二父提交
+*   `HEAD~2`  第一父提交的第一父提交 = `HEAD^^`
+*   `^2` 与 `~2` 的区别 
 *   提交区间
 *   `master..experiment`   experiment 分支中未在 master 分支（哪些提交尚未被合并入 master 分支
 *   `master...experiment` 如果你想看 `master` 或者 `experiment` 中包含的但不是两者共有的提交
@@ -108,10 +110,8 @@ HTTPS 如何指定证书？
 
 # 7.3 Git 工具 - 储藏与清理
 
-*   文中出现的 git stash 的各种参数和用法
+*   文中出现的 `git stash` 的各种参数和用法
 
 <span style="background-color: rgb(252, 252, 250); color: rgb(78, 68, 60);">因为它被设计为从工作目录中移除未被追踪的文件。 如果你改变主意了，你也不一定能找回来那些文件的内容。 一个更安全的选项是运行 </span>`git stash --all`<span style="background-color: rgb(252, 252, 250); color: rgb(78, 68, 60);"> 来移除每一样东西并存放在栈中。</span>
 
 <span style="background-color: rgb(252, 252, 250); color: rgb(78, 68, 60);">默认情况下，</span>`git clean`<span style="background-color: rgb(252, 252, 250); color: rgb(78, 68, 60);"> 命令</span>**只会移除没有忽略的未跟踪文件**<span style="background-color: rgb(252, 252, 250); color: rgb(78, 68, 60);">。</span>** ****任何与 **`**.gitiignore**`** 或其他忽略文件中的模式匹配的文件都不会被移除**<span style="background-color: rgb(252, 252, 250); color: rgb(78, 68, 60);">。 如果你也想要移除那些文件，可以给 clean 命令增加一个 </span>`-x`<span style="background-color: rgb(252, 252, 250); color: rgb(78, 68, 60);"> 选项。</span>
-
-</div>
