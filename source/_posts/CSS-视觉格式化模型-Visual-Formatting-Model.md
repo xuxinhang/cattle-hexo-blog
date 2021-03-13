@@ -6,9 +6,7 @@ tags:
 ---
 
 
-
-[
-![img](https://newbbs.bingyan.net/photo/2018/7e8f35beff7b07022095b9bc4b634416.png)](https://newbbs.bingyan.net/photo/2018/7e8f35beff7b07022095b9bc4b634416.png)
+![img](7e8f35beff7b07022095b9bc4b634416.png)
 
 # What’s CSS Visual Formatting Model
 
@@ -33,7 +31,7 @@ tags:
 
 很多概念你可以分得清吗？
 
-[![img](https://newbbs.bingyan.net/photo/2018/2766dbbad7cb2b9d773b5e699f53f450.png)](https://newbbs.bingyan.net/photo/2018/2766dbbad7cb2b9d773b5e699f53f450.png)
+![img](2766dbbad7cb2b9d773b5e699f53f450.png)
 
 **术语表：\*见文末*。**
 
@@ -77,7 +75,7 @@ tags:
 
 傻傻分不清。**“行内级盒子” 分为 “行内盒” 与 “原子行内级盒” 两种。 注意概念区分与包含关系** 。
 
-[![img](https://newbbs.bingyan.net/photo/2018/18918e6b5fc9dc6a2b2d5eb515f3c251.png)](https://newbbs.bingyan.net/photo/2018/18918e6b5fc9dc6a2b2d5eb515f3c251.png)
+![img](18918e6b5fc9dc6a2b2d5eb515f3c251.png)
 
 #### 行内盒子 // Inline-Box
 
@@ -89,7 +87,7 @@ tags:
 
 （下图的绿色虚线框使用`CSS outline 属性`生成。印证了“生成三个盒子”的说法。）
 
-[![img](https://newbbs.bingyan.net/photo/2018/50571bc1ec99df9e1fea0f0b780c4321.png)](https://newbbs.bingyan.net/photo/2018/50571bc1ec99df9e1fea0f0b780c4321.png)
+![img](50571bc1ec99df9e1fea0f0b780c4321.png)
 
 #### 原子行内级盒子 // Atomic Inline-Level Box
 
@@ -99,7 +97,7 @@ tags:
 
 下图的`<em>`被添加了`inline-block`，成为原子行内级元素。它自成”独立王国“，其内容 *不会* 参与其容器盒子的格式化上下文。
 
-[![img](https://newbbs.bingyan.net/photo/2018/73e9c8e631156c77f4e9b4b0f1331041.png)](https://newbbs.bingyan.net/photo/2018/73e9c8e631156c77f4e9b4b0f1331041.png)
+![img](73e9c8e631156c77f4e9b4b0f1331041.png)
 
 #### 原子行内级盒的排布
 
@@ -109,7 +107,7 @@ tags:
 
 **单个汉字 / 单个英文单词 就是一个自然的原子行内级盒** 。当然，一些CSS属性会改变对“原子”的判定，例如 `word-break: break-all`。见下图。
 
-[![img](https://newbbs.bingyan.net/photo/2018/f67abd5d7a768c10b3b57bb2d24d207a.png)](https://newbbs.bingyan.net/photo/2018/f67abd5d7a768c10b3b57bb2d24d207a.png)
+![img](f67abd5d7a768c10b3b57bb2d24d207a.png)
 
 > **Q：“原子”可以再分吗？**或者说 生成 “原子行内级盒子” 的元素 可以拥有子元素吗？
 >
@@ -129,7 +127,7 @@ tags:
 🔸可继承的 CSS 属性值都为 `inherit` 
 🔸不可继承的 CSS 属性值都为 `initial`
 
-[![img](https://newbbs.bingyan.net/photo/2018/4ef4f442d3e2a9f436e9fc6d9d92230a.png)](https://newbbs.bingyan.net/photo/2018/4ef4f442d3e2a9f436e9fc6d9d92230a.png)
+![img](4ef4f442d3e2a9f436e9fc6d9d92230a.png)
 
 上图含有了两个匿名块盒子，下图显示了两个匿名行内盒子。
 
@@ -149,7 +147,7 @@ tags:
 
 下面是几种FC：
 
-[![img](https://newbbs.bingyan.net/photo/2018/4f07d3e67edf70f09ba92c1b687080d8.png)](https://newbbs.bingyan.net/photo/2018/4f07d3e67edf70f09ba92c1b687080d8.png)
+![img](4f07d3e67edf70f09ba92c1b687080d8.png)
 
 ### BFC
 
@@ -179,7 +177,7 @@ tags:
 - 防止margin合并
 - float高度塌陷
 
-[![img](https://newbbs.bingyan.net/photo/2018/65c91d27b6b5bee5ae574f2f4fd3fca4.png)](https://newbbs.bingyan.net/photo/2018/65c91d27b6b5bee5ae574f2f4fd3fca4.png)
+![img](65c91d27b6b5bee5ae574f2f4fd3fca4.png)
 
 #### Related Demos
 

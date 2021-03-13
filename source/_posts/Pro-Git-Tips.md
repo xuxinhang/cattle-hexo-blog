@@ -60,7 +60,7 @@ Git 的分级配置：
 
 
 
-![Git 下文件生命周期图。](https://git-scm.com/book/en/v2/images/lifecycle.png)
+![Git 下文件生命周期图。](lifecycle.png)
 
 *Figure 1. 文件的状态变化周期* :star:
 
@@ -425,7 +425,7 @@ $ git rebase [-i | --interactive] [<options>] [--exec <cmd>] [--onto <newbase>]
 
 
 
-![截取特性分支上的另一个特性分支，然后变基到其他分支。](https://git-scm.com/book/en/v2/images/interesting-rebase-2.png)
+![截取特性分支上的另一个特性分支，然后变基到其他分支。](interesting-rebase-2.png)
 
 
 

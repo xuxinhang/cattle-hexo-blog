@@ -35,7 +35,7 @@ tags:
 
 就这几行，视觉上会就会有大变化。[前后对比](https://codepen.io/xuxinhang/pen/ZwdxgW)：
 
-![](https://user-gold-cdn.xitu.io/2019/2/22/16915c2a03989856?w=835&h=277&f=png&s=237345)
+![](16915c2a03989856.png)
 
 
 > 另外，[这里](https://codepen.io/xuxinhang/pen/wNGwYo)有个比上面更实用的 Demo
@@ -77,7 +77,7 @@ CSS `mask-*` 系列属性是在 CSS Masking Module Level 1 中定义的。这个
 
 就是下面的效果啦。
 
-![](https://user-gold-cdn.xitu.io/2019/2/22/16915c7824565c9e?w=199&h=191&f=png&s=6203)
+![](16915c7824565c9e.png)
 
 
 上面的用法还是很简单的，我们指定了一个 `mask` 参数，它的值是一张<s>从GitHub盗的</s>SVG图片。于是多彩的渐变就被<s>裁剪</s>遮罩成了那只著名的猫。
@@ -108,7 +108,7 @@ CSS `mask-*` 系列属性是在 CSS Masking Module Level 1 中定义的。这个
     
 有没有 `background-*` 的即视感？没错，里面的不少属性都是和 backgorund / border 一致的，而且它们的作用也是一致的，只不过 `background-*` 用在背景上，而 `mask-*` 用在遮罩层上而已——用在背景上的奇技淫巧搬到 mask 的世界里还能接着用！比如实现这样的效果：
 
-![](https://user-gold-cdn.xitu.io/2019/2/22/16915c51b6c3daab?w=183&h=200&f=png&s=6726)
+![](16915c51b6c3daab.png)
 
 
 ```css
@@ -152,7 +152,7 @@ mask-type CSS 属性设置 `mask-image` 被用于“亮度型”的遮罩还是�
 }
 ```
 
-![](https://user-gold-cdn.xitu.io/2019/2/22/16915cc34f589f22?w=912&h=114&f=png&s=15270)
+![](16915cc34f589f22.png)
 
 左边是遮罩图片，中间是 `luminance` 右边使用 `alaph`。这里的图片是不透明的，所以将一个恒不透明的图片在`alaph`模式下作为遮罩，其结果是没有遮罩效果。但是图片是有亮度变化的，所以`luminance`下的被遮罩元素就呈现出透明度的变化了。 
 
@@ -187,7 +187,7 @@ mask-type CSS 属性设置 `mask-image` 被用于“亮度型”的遮罩还是�
 
 现在，我们有一个`<video>`，以及一个“白底黑字”的Logo浮层。
 
-![](https://user-gold-cdn.xitu.io/2019/2/22/16915a8b25d771d1?w=640&h=360&f=png&s=170232)
+![](16915a8b25d771d1.png)
 
 我们在浮层框上加上下面的 CSS：
 
@@ -200,7 +200,7 @@ mask-type CSS 属性设置 `mask-image` 被用于“亮度型”的遮罩还是�
 
 就变成了下面的样子：
 
-![](https://user-gold-cdn.xitu.io/2019/2/22/16915ae4bf83ad55?w=640&h=362&f=png&s=215599)
+![](16915ae4bf83ad55.png)
 [去这个 Demo，看具体代码和效果](https://codepen.io/xuxinhang/pen/KJjBbP)
 
 齿轮图标确实是变为镂空的了。不过，为什么呢？

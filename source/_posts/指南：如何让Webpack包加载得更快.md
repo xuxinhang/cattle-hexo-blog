@@ -6,7 +6,7 @@ tags:
 ---
 
 
-[![img](https://newbbs.bingyan.net/photo/2017/4ab27a9426ce3fc36133257bec467464.png)](https://newbbs.bingyan.net/photo/2017/4ab27a9426ce3fc36133257bec467464.png) 
+![img](4ab27a9426ce3fc36133257bec467464.png) 
 
 # 我们为什么需要加载更快的包
 
@@ -15,7 +15,7 @@ tags:
 
 # 思路
 
-[![img](https://newbbs.bingyan.net/photo/2017/8bf8f21071a2e1dd6a43796444548325.png)](https://newbbs.bingyan.net/photo/2017/8bf8f21071a2e1dd6a43796444548325.png)
+![img](8bf8f21071a2e1dd6a43796444548325.png)
 
  
 
@@ -25,11 +25,11 @@ tags:
 
 说起 **入门级工具** ，个人感觉比较好用的是“Webpack Visualizer”和“Webpack bundle analyzer”。前者输出环形图，后者是框图，根据自己的喜好选择。很好上手，配置也非常简单，可输出结果为HTML文件。使用这些工具可以很清楚的看到每个bundle分别打包了哪些代码，哪些占据了最大的体积，也可以观察哪些代码其实是无用的可以优化掉的。
 
-[![img](https://newbbs.bingyan.net/photo/2017/c4a4024614f6c518a1bb8e31c35e23bb.png)](https://newbbs.bingyan.net/photo/2017/c4a4024614f6c518a1bb8e31c35e23bb.png)
+![img](c4a4024614f6c518a1bb8e31c35e23bb.png)
 
 比如说下面这张图，我们可以看到vendor文件占了大头，而且axios和fetch两个库功能重复了——这是我之前从来没有注意到的。
 
-[![img](https://newbbs.bingyan.net/photo/2017/a6cd3cd023375a2fd1cde3c75b57db84.png)](https://newbbs.bingyan.net/photo/2017/a6cd3cd023375a2fd1cde3c75b57db84.png)
+![img](a6cd3cd023375a2fd1cde3c75b57db84.png)
 
 ## 进阶工具
 
@@ -47,13 +47,13 @@ tags:
 
 - 上传你的json文件，长传后会看到这么一个界面，会简单描述你的webpack的版本，有多少modules，多少chunks等等
 
-[![img](https://newbbs.bingyan.net/photo/2017/7cf14189dab4a369d923e5cc0bbe7ec3.png)](https://newbbs.bingyan.net/photo/2017/7cf14189dab4a369d923e5cc0bbe7ec3.png)
+![img](7cf14189dab4a369d923e5cc0bbe7ec3.png)
 
 - 点击chunks，可以看到所有chunks的描述，左边是chunks的id，然后有namse，有多少modules，大小，引用它的chunks是谁、即parents，假如我们需要分析id为1的chunk，只需要点击左边的id
 
-[![img](https://newbbs.bingyan.net/photo/2017/552b024d9c5a522b4b06db3e203d2fde.png)](https://newbbs.bingyan.net/photo/2017/552b024d9c5a522b4b06db3e203d2fde.png)
+![img](552b024d9c5a522b4b06db3e203d2fde.png)
 
-- 这里你可以看到更详细的信息，这里最重要的是两个，reasons是引用这个chunks的模块，modules是这个chunks所引用的modules。也就是模块之间的调用关系。[![img](https://newbbs.bingyan.net/photo/2017/2d8b9a3c1657a69daba4f95ed0632a6d.png)](https://newbbs.bingyan.net/photo/2017/2d8b9a3c1657a69daba4f95ed0632a6d.png)
+- 这里你可以看到更详细的信息，这里最重要的是两个，reasons是引用这个chunks的模块，modules是这个chunks所引用的modules。也就是模块之间的调用关系。![img](2d8b9a3c1657a69daba4f95ed0632a6d.png)
 - 这里你发现有一个模块不是你想要的modules，你只需要点击这个模块的id，再去查看reasons就可以看到这个模块是被谁引入的。
 - 也可点击上面的导航来看其他角度的分析。
 
@@ -66,7 +66,7 @@ tags:
 - 【Tips】Zepto是迷你版jQuery
 - 【Tips】有时候写原生JavaScript也不是一个太差的主意
 
-[![img](https://newbbs.bingyan.net/photo/2017/1e78c08c004c9454cbd0d480c405c7aa.png)](https://newbbs.bingyan.net/photo/2017/1e78c08c004c9454cbd0d480c405c7aa.png)
+![img](1e78c08c004c9454cbd0d480c405c7aa.png)
 
 ## 试试JS模板引擎
 
@@ -74,9 +74,9 @@ tags:
 
 相比主流的的MV*框架，它小巧快速，而这也是这本文所追求的。但是它没有组件的概念，不利于复用和解耦，也不用VirtualDOM技术。所以，简而言之，做一些小规模的、不大变动的数据渲染还是是很合适的。
 
-[![img](https://newbbs.bingyan.net/photo/2017/abd18bee7e0b9ae48812281fae69adbd.png)](https://newbbs.bingyan.net/photo/2017/abd18bee7e0b9ae48812281fae69adbd.png)
+![img](abd18bee7e0b9ae48812281fae69adbd.png)
 
-[![img](https://newbbs.bingyan.net/photo/2017/f936c9fbbf009c57081e0eddb937ec71.png)](https://newbbs.bingyan.net/photo/2017/f936c9fbbf009c57081e0eddb937ec71.png)
+![img](f936c9fbbf009c57081e0eddb937ec71.png)
 
 ## 精简版框架
 
@@ -104,11 +104,11 @@ Vue是比较小巧的，而React就不是了。这里推荐两个React精简替�
 
 看到网上两级分割的做法，我提出了另一种策略。
 
-[![img](https://newbbs.bingyan.net/photo/2017/6f771c0d69ce8a5767ea62430328f1ea.png)](https://newbbs.bingyan.net/photo/2017/6f771c0d69ce8a5767ea62430328f1ea.png)
+![img](6f771c0d69ce8a5767ea62430328f1ea.png)
 
 在配置文件里面，你可以像下图这么写，还有些要注意的地方。强烈建议大家好好看看CommonChunk插件的配置选项和官方例子—— **CommonChunk的灵活程度超乎你的想象** 。
 
-[![img](https://newbbs.bingyan.net/photo/2017/e865b3cc95ea8f05018262a220604bb7.png)](https://newbbs.bingyan.net/photo/2017/e865b3cc95ea8f05018262a220604bb7.png)
+![img](e865b3cc95ea8f05018262a220604bb7.png)
 
 ### 输出文件名使用 “chunkhash”
 

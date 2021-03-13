@@ -152,7 +152,7 @@ HTTPS 的通信过程和上面描述的基本一致。
 -> 之后双方就拿着这个对称加密秘钥来进行正常的通信`
 ```
 
-![img](https://user-gold-cdn.xitu.io/2019/1/11/1683d4a61df00d44?w=648&h=560&f=png&s=74702)
+![img](1683d4a61df00d44.png)
 
 整个过程中，HTTPS 证书使用的是 X.509 证书标准。
 
@@ -177,10 +177,10 @@ HTTPS协议使用的是 SSL 证书，它**遵从**了 X.509 标准。
 在浏览器中，查看证书内容非常容易。
 
 
-![](https://user-gold-cdn.xitu.io/2019/1/11/1683d4ddfb84b2a4?w=499&h=395&f=jpeg&s=56566)
+![](1683d4ddfb84b2a4.jpg)
 
 
-![](https://user-gold-cdn.xitu.io/2019/1/11/1683d4e633a40e37?w=506&h=475&f=jpeg&s=62777)
+![](1683d4e633a40e37.jpg)
 
 
 
@@ -208,7 +208,7 @@ HTTPS协议使用的是 SSL 证书，它**遵从**了 X.509 标准。
 从下图可以看到，根证书 “GlobalSign Root CA” 早已经内置到系统内部了。
 
 
-![](https://user-gold-cdn.xitu.io/2019/1/11/1683d4f084d0aceb?w=648&h=341&f=jpeg&s=60184)
+![](1683d4f084d0aceb.jpg)
 
 
 
